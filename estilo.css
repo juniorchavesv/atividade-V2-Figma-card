@@ -1,0 +1,98 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+      
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .descricao {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .plano-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .plano-anual {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .preco {
+    font-size: 18px;
+    color: #009688;
+    font-weight: bold;
+  }
+  
+  .botoes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .botao {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao.alterar {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .botao.alterar:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .botao.continue {
+    background-color: #009688;
+    color: white;
+  }
+  
+  .botao.continue:hover {
+    background-color: #00796b;
+  }
+  
+  .botao.cancelar {
+    background-color: #ff5722;
+    color: white;
+  }
+  
+  .botao.cancelar:hover {
+    background-color: #e64a19;
+  }
